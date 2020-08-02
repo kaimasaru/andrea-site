@@ -62,7 +62,7 @@ button {
     text-align: center;
     line-height: 100px;
     font-size: 4em;
-    letter-spacing: 5px;
+    letter-spacing: 7px;
 }
 
 /* Navbar */
@@ -115,17 +115,21 @@ button {
     font-size: 24px;
 }
 .content {
-    opacity: 1;
-    transition: opacity 1s linear;
+    opacity: 0;
+    transition: opacity .25s linear;
 }
 
 .active {
     background-color: #ffa3ab;
 }
 
+.show {
+    opacity: 1;
+    transition: opacity .25s linear;
+}
+
 .hidden {
-    opacity: 0;
-    display: none;  
+    display: none;
 }
 
 .footer {
