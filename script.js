@@ -6,7 +6,7 @@ const socialBtn = document.querySelector("#social-btn");
 
 const homePg = document.querySelector("#home-pg");
 const collectPg = document.querySelector("#collect-pg");
-const aboutPg = document.querySelector("#under-construction");
+const aboutPg = document.querySelector("#about-pg");
 const shopPg = document.querySelector("#under-construction");
 const socialPg = document.querySelector("#under-construction");
 
@@ -18,6 +18,12 @@ let activePage = 0;
 
 let transitionTime = 250;
 
+pageArr.forEach(function(page) {
+    page.classList.add("hidden");
+    page.classList.remove("show");
+})
+
+pageArr[0].classList.remove("hidden");
 pageArr[0].classList.add("show");
 
 homeBtn.classList.add("active");

@@ -1,0 +1,39 @@
+.content .row {
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+.col {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.col-wide {
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 2em;
+}
+
+.nav {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.nav li {
+  font-size: .9em;
+}
+
+.content .col {
+  padding-bottom: 10%;
+}
+
+.content p {
+  font-size: 1em;
+}
